@@ -6,7 +6,7 @@ before_script:
 script: phpunit tests
 deploy:
      provider: heroku
-     app: project1_travis
+     app: project1-travis-jaimein
      on: master
      skip_cleanup: true
      api_key:
